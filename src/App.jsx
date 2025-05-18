@@ -96,7 +96,7 @@ function App() {
           <option value="light">Light</option>
         </select>
         <RecentSearch recentHistory={recentHistory} setSelectedHistory={setSelectedHistory} setRecentHistory={setRecentHistory}/>
-        <div className="col-span-4 p-10">
+        <div className="col-span-4 p-10 h-screen">
           <h1 className="text-4xl pb-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-700 to-violet-700">
             Hello User, Ask me Anything
           </h1>
