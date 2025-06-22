@@ -10,7 +10,7 @@ function App() {
   const [question, setQuestion] = useState("");
   const [result, setResult] = useState([]);
   const [recentHistory, setRecentHistory] = useState(
-    JSON.parse(localStorage.getItem("history"))
+    JSON.parse(localStorage.getItem("history")),[]
   );
   const [selectedHistory, setSelectedHistory] = useState("");
   const [isLoader, setIsLoader] = useState(false);
